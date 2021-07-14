@@ -1,0 +1,23 @@
+.card {
+    background: #181819;
+    color: white;
+    cursor: pointer;
+    max-height: 150px;
+    .blog-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .time {
+        color: rgb(187, 185, 185);
+    }
+    &:hover {
+        background: red;
+    }
+}
+
+.selected {
+    .card {
+        background: red;
+    }
+}
